@@ -1,0 +1,163 @@
+:root{
+    --color_primario: red;
+    --color_secundario: rgb(220, 152. 58);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado{
+    width: 100%;
+    border: 1px solid red;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.encabezado-imagen{
+    width: 10%;
+    border-radius: 5px;
+}
+.encabezado-titulo{
+    text-align: center;
+    width: 60%;
+}
+.encabezado-menu{
+    width: 30%;
+}
+.encabezado-imagen-logo{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.encabezado-menu-lista{
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado-menu-lista-item{
+    list-style: none;
+}
+
+.encabezado-menu-lista-item:hover{
+    border: 1px solid red;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+.main-body{
+    border: 1px solid rgb(255, 0, 170);
+    margin: 3px;
+}
+.main-body-section{
+    border: 1px solid rgb(88, 37, 7);
+    margin: 3px;
+    display: flex;
+}
+.main-body-section-titulo{
+
+    margin: 3px;
+    width: 50%;
+}
+.main-body-section-parrafo{
+    width: 50%;
+    text-align: justify;
+}
+.main-body-section2{
+    border: 1px solid red;
+    margin: 3px;
+    display: flex;
+}
+.main-body-section2-formato{
+    border: 1px solid yellowgreen;
+    margin: 3px;
+    width: 33.3%;
+}
+.main-body-section2-contenido{
+    border: 1px solid rgb(87, 7, 7);
+    margin: 3px;
+    width: 33.3%;
+}
+.main-body-section2-listas{
+    border: 1px solid violet;
+    margin: 3px;
+    width: 33.3%;
+}
+
+caption{
+    border: 1px solid black;
+    background-color: #c775b9
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+}
+.desayuno{
+    background-color: #c775b9
+}
+.horario{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+table{
+    border: 1px solid blue;
+}
+
+.tabla-ejercicio{
+    border: 1px solid black;
+}
+.celdacolor{
+    background-color: yellow;
+}
+
+li{
+    margin-left: 20px;
+}
+body{
+    background-image: url(/image/empanadas2.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    margin-top: 200px;
+
+    font-size: 20px;
+}
+
+
+
+.icono{
+    position: sticky;
+    top: 500px;
+    margin-left: 92%;
+}
+
+.icono_empanada{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    box-shadow: 4px 5px 25px  3px black;
+}
+
+
+
+.pie{
+    border: 1px solid greenyellow;
+    font-size: 1rem;
+}
+.footer.pie{
+    font-size: 20px;
+    width: 100vw;
+    height: 20vh;  
+}
+
+

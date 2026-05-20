@@ -1,0 +1,291 @@
+body{
+    background-color:antiquewhite;
+}
+header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 90px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color:rgba(34, 192, 32, 0.702);
+}
+.imagen{
+    width:7%;
+    height:7%;
+    object-fit: contain;
+    border-radius: 80%;
+    box-shadow: 4px 5px 25px  3px black;
+}
+
+ul,li{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+}
+
+button{
+    border-radius: 10%;
+    padding: 10px 20px;
+    background-color:rgb(209, 236, 209);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    text-align: center;
+}
+.section-main1{
+    background-color:plum;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 1%;
+}
+.section-main2{
+    background-color: pink;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 1%;
+}
+.section-main3{
+    background-color:palevioletred;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.section_footer-1{
+    background-color: yellow;
+    width: 33%;
+    border: 1px solid black;
+}
+.section_footer-2{
+    background-color: rgba(5, 78, 161, 0.706);
+    width: 33%;
+    border: 1px solid black;
+}
+.section_footer-3{
+    background-color: rgba(255, 0, 0, 0.674);
+    width: 33%;
+    border: 1px solid black;
+}
+
+/*Punto de quiebre para pantallas pequeñas con nombre xs*/
+@media screen and (max-width: 255px){
+    .xs-1{width: 8.333%;}
+    .xs-2{
+        width: 16.666%;
+    }
+    .xs-3{
+        width: 25%;
+    }
+    .xs-4{
+        width: 33.332%;
+    }
+    .xs-5{
+        width: 41.665%;
+    }
+    .xs-6{
+        width: 50%;
+    }
+    .xs-7{
+        width: 58.331%;
+    }
+    .xs-8{
+        width: 66.664%;
+    }
+    .xs-9{
+        width: 75%;
+    }
+    .xs-10{
+        width: 83.33%;
+    }
+    .xs-11{
+        width: 91.663%;
+    }
+    .xs-12{
+        width: 100%;
+    }
+}
+
+/* Punto de quiebre para pantalla con nombre s */
+@media screen and (min-width: 256px) and (max-width: 767px){
+    .s-1{
+        width: 8.333%;
+    }
+    .s-2{
+        width: 16.666%;
+    }
+    .s-3{
+        width: 25%;
+    }
+    .s-4{
+        width: 33.332%;
+    }
+    .s-5{
+        width: 41.665%;
+    }
+    .s-6{
+        width: 50%;
+    }
+    .s-7{
+        width: 58.331%;
+    }
+    .s-8{
+        width: 66.664%;
+    }
+    .s-9{
+        width: 75%;
+    }
+    .s-10{
+        width: 83.33%;
+    }
+    .s-11{
+        width: 91.663%;
+    }
+    .s-12{
+        width: 100%;
+    }
+
+}
+
+/* Punto de quiebre para pantalla con nombre m */
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .m-1{
+        width: 8.333%;
+    }
+    .m-2{
+        width: 16.666%;
+    }
+    .m-3{
+        width: 25%;
+    }
+    .m-4{
+        width: 33.332%;
+    }
+    .m-5{
+        width: 41.665%;
+    }
+    .m-6{
+        width: 50%;
+    }
+    .m-7{
+        width: 58.331%;
+    }
+    .m-8{
+        width: 66.664%;
+    }
+    .m-9{
+        width: 75%;
+    }
+    .m-10{
+        width: 83.33%;
+    }
+    .m-11{
+        width: 91.663%;
+    }
+    .m-12{
+        width: 100%;
+    }
+
+}  
+
+
+/* Punto de quiebre para pantalla con nombre l */
+@media screen and (min-width: 1001px) and (max-width: 1465px){
+    .l-1{
+        width: 8.333%;
+    }
+    .l-2{
+        width: 16.666%;
+    }
+    .l-3{
+        width: 25%;
+    }
+    .l-4{
+        width: 33.332%;
+    }
+    .l-5{
+        width: 41.665%;
+    }
+    .l-6{
+        width: 50%;
+    }
+    .l-7{
+        width: 58.331%;
+    }
+    .l-8{
+        width: 66.664%;
+    }
+    .l-9{
+        width: 75%;
+    }
+    .l-10{
+        width: 83.33%;
+    }
+    .l-11{
+        width: 91.663%;
+    }
+    .l-12{
+        width: 100%;
+    }
+}
+
+
+/* Punto de quiebre para pantalla con nombre g */
+@media screen and (min-width: 1466px) {
+    .g-1{
+        width: 8.333%;
+    }
+    .g-2{
+        width: 16.666%;
+    }
+    .g-3{
+        width: 25%;
+    }
+    .g-4{
+        width: 33.332%;
+    }
+    .g-5{
+        width: 41.665%;
+    }
+    .g-6{
+        width: 50%;
+    }
+    .g-7{
+        width: 58.331%;
+    }
+    .g-8{
+        width: 66.664%;
+    }
+    .g-9{
+        width: 75%;
+    }
+    .g-10{
+        width: 83.33%;
+    }
+    .g-11{
+        width: 91.663%;
+    }
+    .g-12{
+        width: 100%;
+    }
+
+}

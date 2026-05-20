@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(21, 21, 143, 0.877)
+}
+.registro{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: white;
+    width: 29%;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    font-size: medium;
+    color: black;
+
+}
+
+
+.titulo-formulario{
+
+    margin: 5px;
+    border: 1px solid red;
+    padding: 5px;
+
+    border-top: 5px solid green;
+    border-right: 5px dotted blue;
+    border-bottom: 5px double violet;
+    border-left: 5px dashed yellow;
+}
+.idd{
+    box-shadow: 20px 10px 25px  20px black;
+    text-shadow: 5px 5px 20px blue;
+    background-color: rgb(241, 94, 217);
+
+    background-image: url(/image/empanadas.jpg);
+    background-size: top;
+}
